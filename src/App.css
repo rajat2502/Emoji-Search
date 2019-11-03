@@ -1,0 +1,61 @@
+body {
+  background: #f3f3f3;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.4rem;
+  letter-spacing: 0.08ch;
+}
+
+.input-search {
+  margin: 0 20px 10px;
+}
+
+.input-search input {
+  width: 100%;
+  font-size: 1.35rem;
+  border: 1px solid #a9a9a9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 8px;
+}
+
+.cardlist {
+  border: 1px solid #a9a9a9;
+  margin-top: 20px;
+}
+
+.cardlist:last-child {
+  border-bottom: none;
+}
+
+.card {
+  padding: 12px;
+  border-bottom: 1px solid #a9a9a9;
+  font-size: 1.2rem;
+}
+
+.card:hover {
+  background: #d9d9d9;
+}
+
+/* .emoji {
+  width: 20px;
+  height: 20px;
+} */
+
+.emoji-title {
+  margin-left: 10px;
+}
+
+.copy-emoji {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
