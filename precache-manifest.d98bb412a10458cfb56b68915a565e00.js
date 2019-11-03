@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94c15bbe26aa52c69ab751f0a74d8590",
+    "revision": "c27fbce2187ff91c4bcb31dcba1a2d22",
     "url": "/Emoji-Search/index.html"
   },
   {
-    "revision": "6b295f5fd0b2b4ac2cba",
-    "url": "/Emoji-Search/static/css/main.b406624a.chunk.css"
+    "revision": "b34bd5731b44b340c493",
+    "url": "/Emoji-Search/static/css/main.dc0c93cf.chunk.css"
   },
   {
     "revision": "f6d8b7fb1c14d4101928",
     "url": "/Emoji-Search/static/js/2.6c4a6e7c.chunk.js"
   },
   {
-    "revision": "6b295f5fd0b2b4ac2cba",
+    "revision": "b34bd5731b44b340c493",
     "url": "/Emoji-Search/static/js/main.c2544ce4.chunk.js"
   },
   {
