@@ -5,7 +5,7 @@ const Card = ({emoji}) => {
         <div className="card">
             <span role="img" aria-label="emoji" className="emoji">{emoji.symbol}</span>
             <span className="emoji-title">{emoji.title}</span>
-            <span className="copy-emoji">copy</span>
+            <button className="copy-emoji">Click to copy Emoji</button>
         </div>
     )
 }

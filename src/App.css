@@ -26,36 +26,51 @@ body {
 }
 
 .cardlist {
-  border: 1px solid #a9a9a9;
+  border-top: 1px solid #a9a9a9;
   margin-top: 20px;
 }
 
-.cardlist:last-child {
-  border-bottom: none;
-}
-
 .card {
-  padding: 12px;
+  padding: 14px;
   border-bottom: 1px solid #a9a9a9;
   font-size: 1.2rem;
+  display: flex;
+  align-items: center;
 }
 
 .card:hover {
   background: #d9d9d9;
 }
 
-/* .emoji {
-  width: 20px;
-  height: 20px;
-} */
+.card:hover .copy-emoji {
+  display: inline;
+}
+
+.emoji {
+  font-size: 1.4rem;
+}
 
 .emoji-title {
   margin-left: 10px;
+  vertical-align: middle;
 }
 
 .copy-emoji {
   position: absolute;
   right: 20px;
   cursor: pointer;
+  background: #c6c6c6;
+  font-size: 0.9rem;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 5px;
+  /* display: none; */
 }
 
+.copy-emoji:hover {
+  background: #a9a9a9;
+}
+
+.copy-emoji:focus {
+  outline: none;
+}

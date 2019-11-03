@@ -8,9 +8,9 @@ const CardList = ({emojis}) => {
     return (
         <div className="cardlist">
             {
-                emojis.map(emoji => {
+                emojis.map((emoji, index) => {
                     return (
-                        <Card emoji={emoji} />
+                        <Card emoji={emoji} key={index} />
                     )
                 })
             }
