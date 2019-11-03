@@ -64,11 +64,13 @@ body {
   padding: 4px 6px;
   border: none;
   border-radius: 5px;
-  /* display: none; */
+  transition: all 0.3s;
+  display: none;
 }
 
 .copy-emoji:hover {
-  background: #a9a9a9;
+  background: #28a745;
+  color: white;
 }
 
 .copy-emoji:focus {

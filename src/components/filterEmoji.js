@@ -2,7 +2,7 @@ import emojiList from "./emojiList.json";
 
 export default function filterEmoji(search) {
 
-    if(search == '') {
+    if(search === '') {
         return emojiList.slice(0, 20);
     }
 

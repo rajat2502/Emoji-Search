@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import Card from './Card';
 
 const CardList = ({emojis}) => {
+
+    const [copiedIndex, setCopiedIndex] = useState();
+
+    const handleCopied = (emoji, index) => {
+        navigator.clipboard.writeText(emoji);
+        setCopiedIndex(index);
+    }
 
     console.log(emojis);
     return (
@@ -10,7 +17,7 @@ const CardList = ({emojis}) => {
             {
                 emojis.map((emoji, index) => {
                     return (
-                        <Card emoji={emoji} key={index} />
+                        <Card emoji={emoji} key={index} index={index} copied={index === copiedIndex ? true : false} handleCopied={handleCopied} />
                     )
                 })
             }

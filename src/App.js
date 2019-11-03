@@ -6,7 +6,6 @@ import Title from './components/Title';
 import Input from './components/Input';
 import CardList from './components/CardList';
 import filterEmoji from './components/filterEmoji';
-import Footer from './components/Footer';
 
 const App = () => {
 
